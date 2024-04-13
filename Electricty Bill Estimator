@@ -21,7 +21,7 @@ def APSPDCL_GROUPB (y):
 
 def APSPDCL_GROUPC (z):
     if z <= 50:
-        price = units * 2.65
+        price = z * 2.65
         print("The Estimation Price is :" + str(price))
     elif z > 50 and z <= 100:
         price = z * 3.35
